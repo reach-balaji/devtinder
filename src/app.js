@@ -10,8 +10,6 @@ app.use("/test",(req,res)=>{
   res.send('tinder app')
 })
 
-app.use()
-
 app.listen(3000,()=>{
 
     console.log("listening 3000");
